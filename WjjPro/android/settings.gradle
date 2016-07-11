@@ -1,0 +1,3 @@
+rootProject.name = 'WjjPro'
+
+include ':app'
