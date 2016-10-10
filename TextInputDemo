@@ -1,0 +1,82 @@
+import React, { Component } from 'react';
+import {
+  AppRegistry,
+  StyleSheet,
+  Text,
+  View,
+  Image,
+  ScrollView,
+  TextInput,
+} from 'react-native';
+
+class WjjPro extends Component {
+  render() {
+    return (
+      <ScrollView>
+        <View style= {{alignItems : 'center'}}>
+          <View>
+            <Text style ={{fontSize : 25}}>
+              霸气的大标题
+            </Text>
+          </View>
+          <View style={{width : 200,flexDirection : 'row',backgroundColor : '#aaaa11',marginTop : 30,}}>
+            <Text style = {{marginLeft : 10,alignSelf:'center',}}>
+              账号 ：
+            </Text>
+            <TextInput style={{flex : 1,height : 40}}/>
+          </View>
+          <View style={{width : 200,flexDirection : 'row',backgroundColor : '#caaccc',marginTop : 10,}}>
+            <Text style = {{marginLeft : 10,alignSelf:'center',}}>
+              密码 ：
+            </Text>
+            <MyInput />
+          </View>
+        </View>
+      </ScrollView>
+    );
+  }
+}
+
+class MyInput extends React.Component{
+constructor(props){
+  super(props);
+  this.state={
+    length : 0,
+    text : '',
+    textHint : 'input value',
+
+  };
+}
+  render(){
+    return(
+      <TextInput
+        placeholder = {this.state.textHint}
+        onChangeText={ (text)=> this.setState({text})}
+        style={{flex : 1,height : 40}}/>
+    );
+  }
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF',
+  },
+  welcome: {
+    fontSize: 20,
+    textAlign: 'center',
+    margin: 10,
+  },
+  instructions: {
+    textAlign: 'center',
+    color: '#333333',
+    marginBottom: 5,
+  },
+  title:{
+    fontSize : 25,
+  },
+});
+
+AppRegistry.registerComponent('WjjPro', () => WjjPro);
