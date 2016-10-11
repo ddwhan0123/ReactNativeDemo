@@ -1,82 +1,132 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View,
-  Image,
-  ScrollView,
-  TextInput,
+    AppRegistry,
+    StyleSheet,
+    Text,
+    View,
+    Image,
+    ScrollView,
+    TextInput
 } from 'react-native';
 
 class WjjPro extends Component {
-  render() {
-    return (
-      <ScrollView>
-        <View style= {{alignItems : 'center'}}>
-          <View>
-            <Text style ={{fontSize : 25}}>
-              霸气的大标题
-            </Text>
-          </View>
-          <View style={{width : 200,flexDirection : 'row',backgroundColor : '#aaaa11',marginTop : 30,}}>
-            <Text style = {{marginLeft : 10,alignSelf:'center',}}>
-              账号 ：
-            </Text>
-            <TextInput style={{flex : 1,height : 40}}/>
-          </View>
-          <View style={{width : 200,flexDirection : 'row',backgroundColor : '#caaccc',marginTop : 10,}}>
-            <Text style = {{marginLeft : 10,alignSelf:'center',}}>
-              密码 ：
-            </Text>
-            <MyInput />
-          </View>
-        </View>
-      </ScrollView>
-    );
-  }
+    render() {
+        return (
+            <ScrollView>
+                <View style={{
+                    alignItems: 'center'
+                }}>
+                    <View>
+                        <Text style ={{
+                            fontSize: 25
+                        }}>
+                            霸气的大标题
+                        </Text>
+                    </View>
+                    <View style={{
+                        width: 200,
+                        flexDirection: 'row',
+                        borderWidth: 1,
+                        marginTop: 30
+                    }}>
+                        <Text style={{
+                            marginLeft: 10,
+                            alignSelf: 'center'
+                        }}>
+                            账号 ：
+                        </Text>
+                      <MyInput textLength = {8} />
+                    </View>
+                    <View style={{
+                        borderWidth: 1,
+                        width: 200,
+                        flexDirection: 'row',
+                        marginTop: 10
+                    }}>
+                        <Text style={{
+                            marginLeft: 10,
+                            alignSelf: 'center'
+                        }}>
+                            密码 ：
+                        </Text>
+                        <MyInput textHint = 'input password'/>
+                    </View>
+                </View>
+            </ScrollView>
+        );
+    }
 }
 
-class MyInput extends React.Component{
-constructor(props){
-  super(props);
-  this.state={
-    length : 0,
-    text : '',
-    textHint : 'input value',
+class MyInput extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            length: 0,
+            text: '',
+            textHint: 'input value'
+        };
+    }
+    render() {
+      var maxTextLength = 10;
+      if(this.props.textLength > 5){
+          maxTextLength = this.props.textLength;
+      }
 
-  };
-}
-  render(){
-    return(
-      <TextInput
-        placeholder = {this.state.textHint}
-        onChangeText={ (text)=> this.setState({text})}
-        style={{flex : 1,height : 40}}/>
-    );
-  }
+      this.state.length = maxTextLength-this.state.text.length;
+      var nowColor;
+      if(this.state.length > 6){
+        nowColor = 'green';
+      }else{
+        nowColor = 'red';
+      }
+
+      let hintValue;
+
+      if(this.props.textHint == null ){
+        hintValue=this.state.textHint;
+      }else{
+        hintValue=this.props.textHint;
+      }
+
+        return (
+            <View style = {{flexDirection: 'row',}}>
+                <TextInput
+                  maxLength={maxTextLength}
+                  multiline={false}
+                  placeholder={hintValue}
+                  onChangeText={(text) => this.setState({text})} style={{
+                    flex: 1,
+                    height: 40,
+                    width :120,
+                }}/>
+              <Text style = {{alignSelf: 'center',color : nowColor}}>
+                {this.state.length}
+              </Text>
+            </View>
+        );
+    }
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
-  title:{
-    fontSize : 25,
-  },
+    container: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: '#F5FCFF'
+    },
+    welcome: {
+        fontSize: 20,
+        textAlign: 'center',
+        margin: 10
+    },
+    instructions: {
+        textAlign: 'center',
+        color: '#333333',
+        marginBottom: 5
+    },
+    title: {
+        fontSize: 25
+    }
 });
 
 AppRegistry.registerComponent('WjjPro', () => WjjPro);
