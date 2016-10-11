@@ -6,10 +6,29 @@ import {
     View,
     Image,
     ScrollView,
-    TextInput
+    TextInput,
+    ToastAndroid
 } from 'react-native';
-
+import Button from 'react-native-button'
 class WjjPro extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            password: '',
+            userName: ''
+        }
+        this._handlePress = this._handlePress.bind(this);
+    }
+    _handlePress() {
+        let password = this.state.password
+        let userName = this.state.userName
+
+        if (password.length > 0 && userName.length > 0) {
+            ToastAndroid.show('用户名 :' + userName + ' 密码 :' + password, ToastAndroid.SHORT)
+        } else {
+            ToastAndroid.show('数据缺失', ToastAndroid.SHORT)
+        }
+    }
     render() {
         return (
             <ScrollView>
@@ -35,7 +54,13 @@ class WjjPro extends Component {
                         }}>
                             账号 ：
                         </Text>
-                      <MyInput textLength = {8} />
+                        <TextInput onChangeText={(text) => {
+                            this.setState({userName: text});
+                        }} style={{
+                            flex: 1,
+                            height: 40,
+                            width: 100
+                        }}/>
                     </View>
                     <View style={{
                         borderWidth: 1,
@@ -49,60 +74,24 @@ class WjjPro extends Component {
                         }}>
                             密码 ：
                         </Text>
-                        <MyInput textHint = 'input password'/>
+                        <TextInput textHint='input password' onChangeText={(text) => {
+                            this.setState({password: text});
+                        }} style={{
+                            flex: 1,
+                            height: 40,
+                            width: 100
+                        }}/>
                     </View>
+                    <Button onPress={this._handlePress} style={{
+                        fontSize: 20,
+                        color: 'green'
+                    }} styleDisabled={{
+                        color: 'red'
+                    }}>
+                        Login
+                    </Button>
                 </View>
             </ScrollView>
-        );
-    }
-}
-
-class MyInput extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            length: 0,
-            text: '',
-            textHint: 'input value'
-        };
-    }
-    render() {
-      var maxTextLength = 10;
-      if(this.props.textLength > 5){
-          maxTextLength = this.props.textLength;
-      }
-
-      this.state.length = maxTextLength-this.state.text.length;
-      var nowColor;
-      if(this.state.length > 6){
-        nowColor = 'green';
-      }else{
-        nowColor = 'red';
-      }
-
-      let hintValue;
-
-      if(this.props.textHint == null ){
-        hintValue=this.state.textHint;
-      }else{
-        hintValue=this.props.textHint;
-      }
-
-        return (
-            <View style = {{flexDirection: 'row',}}>
-                <TextInput
-                  maxLength={maxTextLength}
-                  multiline={false}
-                  placeholder={hintValue}
-                  onChangeText={(text) => this.setState({text})} style={{
-                    flex: 1,
-                    height: 40,
-                    width :120,
-                }}/>
-              <Text style = {{alignSelf: 'center',color : nowColor}}>
-                {this.state.length}
-              </Text>
-            </View>
         );
     }
 }
