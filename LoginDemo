@@ -54,7 +54,7 @@ class WjjPro extends Component {
                         }}>
                             账号 ：
                         </Text>
-                        <TextInput onChangeText={(text) => {
+                        <TextInput placeholder='input userName' onChangeText={(text) => {
                             this.setState({userName: text});
                         }} style={{
                             flex: 1,
@@ -74,7 +74,7 @@ class WjjPro extends Component {
                         }}>
                             密码 ：
                         </Text>
-                        <TextInput textHint='input password' onChangeText={(text) => {
+                        <TextInput placeholder='input password' onChangeText={(text) => {
                             this.setState({password: text});
                         }} style={{
                             flex: 1,
