@@ -21,12 +21,6 @@ export default class WjjPro extends Component {
     return <route.component navigator={navigator}  {...route.passProps} />;
   }
 
-  /**
-   * 渲染场景, 通过不同参数, 设置不同页面
-   * @param route 路由, 场景信息
-   * @param navigator 导航器
-   * @returns {XML} 页面
-   */
 
   /**
    * 配置场景动画
