@@ -27,13 +27,6 @@ export default class WjjPro extends Component {
    * @param navigator 导航器
    * @returns {XML} 页面
    */
-  //renderScene(route, navigator) {
-  //  if (route.name == 'FirstPage') {
-  //    return <FirstPage navigator={navigator} {...route.passProps}/>
-  //  } else if (route.name == 'SecondPage') {
-  //    return <SecondPage navigator={navigator} {...route.passProps}/>
-  //  }
-  //}
 
   /**
    * 配置场景动画
