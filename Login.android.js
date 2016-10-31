@@ -1,4 +1,4 @@
-import React, {Component,} from 'react';
+import React, {Component, PropTypes} from 'react';
 import {
     AppRegistry,
     StyleSheet,
@@ -8,13 +8,17 @@ import {
     ScrollView,
     TextInput,
     ToastAndroid,
+    BackAndroid
 } from 'react-native';
 import Button from 'react-native-button'
 import Main from './main.android';
+var _navigator;
+var route;
 
 export default class Login extends Component {
     constructor(props) {
         super(props);
+        _navigator = this.props.navigator;
         this.state = {
             password: '',
             userName: ''
@@ -28,21 +32,19 @@ export default class Login extends Component {
 
         if (password.length > 0 && userName.length > 0) {
             ToastAndroid.show('用户名 :' + userName + ' 密码 :' + password, ToastAndroid.SHORT)
-            this._jump(userName);
+            
+            _navigator.push({
+                component: Main,
+                passProps: {
+                    title: 'Main',
+                    id: 'main',
+                    name: userName,
+                }
+            });
         } else {
             ToastAndroid.show('数据缺失', ToastAndroid.SHORT)
         }
     }
-
-    _jump(name, type = 'Normal') {
-        this.props.navigator.push({
-          component: Main,
-          passProps: {
-            name: name
-          },
-          type: type
-        })
-      }
 
     render() {
         return (
@@ -54,7 +56,7 @@ export default class Login extends Component {
                         <Text style ={{
                             fontSize: 25
                         }}>
-                            霸气的大标题
+                            登陆大标题
                         </Text>
                     </View>
                     <View style={{
