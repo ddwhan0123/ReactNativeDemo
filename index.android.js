@@ -1,49 +1,42 @@
-import React,{Component} from 'react';
+import React, {Component} from 'react';
 import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View,
-  Navigator,
-  TouchableOpacity
+    AppRegistry,
+    StyleSheet,
+    Text,
+    View,
+    Navigator,
+    TouchableOpacity,
+    BackAndroid,
+    ToastAndroid
 } from 'react-native';
+
 import Button from 'react-native-button'
-import Login from './pages/Login.android';
+import Login from './pages/login.android';
+
+var _navigator;
 
 export default class WjjPro extends Component {
-  /**
-   * 使用动态页面加载
-   * @param route 路由
-   * @param navigator 导航器
-   * @returns {XML} 页面
-   */
-  renderScene(route, navigator) {
-    return <route.component navigator={navigator}  {...route.passProps} />;
-  }
-
-
-  /**
-   * 配置场景动画
-   * @param route 路由
-   * @param routeStack 路由栈
-   * @returns {*} 动画
-   */
-  configureScene(route, routeStack) {
-    if (route.type == 'Bottom') {
-      return Navigator.SceneConfigs.FloatFromBottom; // 底部弹出
+    constructor(props) {
+        super(props);
     }
-    return Navigator.SceneConfigs.PushFromRight; // 右侧弹出
-  }
+    configureScenceAndroid() {
+        return Navigator.SceneConfigs.FadeAndroid;
+    }
+    renderSceneAndroid(route, navigator) {
+      return <route.component navigator={navigator}  {...route.passProps} />;
+    }
 
-  render() {
-    return (
-      <Navigator
-        style={{flex:1}}
-        initialRoute={{component: Login}}
-        configureScene={this.configureScene}
-        renderScene={this.renderScene}/>
-    );
-  }
+    render() {
+        var renderScene = this.renderSceneAndroid;
+        var configureScence = this.configureScenceAndroid;
+        return (<Navigator initialRoute={{
+            component: Login,
+            title: 'first',
+            id: 'first',
+        }} configureScence={{
+            configureScence
+        }} renderScene={renderScene}/>)
+    }
 }
 
 const styles = StyleSheet.create({
