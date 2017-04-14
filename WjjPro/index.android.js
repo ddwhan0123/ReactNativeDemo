@@ -1,33 +1,36 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
 import React, { Component } from 'react';
 import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View,
+  Navigator
 } from 'react-native';
 
-class WjjPro extends Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.android.js
-        </Text>
-        <Text style={styles.instructions}>
-          Shake or press menu button for dev menu
-        </Text>
-      </View>
-    );
-  }
+import Login from './pages/login.android'
+
+export default class WjjPro extends Component {
+    constructor(props) {
+        super(props);
+    }
+    configureScenceAndroid() {
+        return Navigator.SceneConfigs.FadeAndroid;
+    }
+    renderSceneAndroid(route, navigator) {
+      return <route.component navigator={navigator}  {...route.passProps} />;
+    }
+
+    render() {
+        var renderScene = this.renderSceneAndroid;
+        var configureScence = this.configureScenceAndroid;
+        return (<Navigator initialRoute={{
+            component: Login,
+            title: 'first',
+            id: 'first',
+        }} configureScence={{
+            configureScence
+        }} renderScene={renderScene}/>)
+    }
 }
 
 const styles = StyleSheet.create({

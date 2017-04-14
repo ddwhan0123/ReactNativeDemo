@@ -1,4 +1,4 @@
-import React, {Component, PropTypes} from 'react';
+import React, { Component, PropTypes } from 'react';
 import {
     AppRegistry,
     StyleSheet,
@@ -32,7 +32,6 @@ export default class Login extends Component {
 
         if (password.length > 0 && userName.length > 0) {
             ToastAndroid.show('用户名 :' + userName + ' 密码 :' + password, ToastAndroid.SHORT)
-            
             _navigator.push({
                 component: Main,
                 passProps: {
@@ -53,7 +52,7 @@ export default class Login extends Component {
                     alignItems: 'center'
                 }}>
                     <View>
-                        <Text style ={{
+                        <Text style={{
                             fontSize: 25
                         }}>
                             登陆大标题
@@ -72,12 +71,12 @@ export default class Login extends Component {
                             账号 ：
                         </Text>
                         <TextInput placeholder='input userName' onChangeText={(text) => {
-                            this.setState({userName: text});
+                            this.setState({ userName: text });
                         }} style={{
                             flex: 1,
                             height: 40,
                             width: 100
-                        }}/>
+                        }} />
                     </View>
                     <View style={{
                         borderWidth: 1,
@@ -92,12 +91,12 @@ export default class Login extends Component {
                             密码 ：
                         </Text>
                         <TextInput placeholder='input password' onChangeText={(text) => {
-                            this.setState({password: text});
+                            this.setState({ password: text });
                         }} style={{
                             flex: 1,
                             height: 40,
                             width: 100
-                        }}/>
+                        }} />
                     </View>
                     <Button onPress={this._handlePress} style={{
                         fontSize: 20,
