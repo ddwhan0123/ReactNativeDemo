@@ -3,12 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jar="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.2.0_938dd00fac26683e41dc2da9a3f4af2fe0875507.jar" />
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.0.1_6b9ac95d50f7cb494a01d084c8efa1c8ae2a4482.jar" />
     </item>
     <item
         is-multidex="false"
@@ -17,7 +17,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="80e27e38fa8e56d8f83e3f7a79d336578fee3f39">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/arouter-annotation-1.0.3_9bf5ced245caa32de3f972839b93fe3dd902e0d5.jar" />
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/arouter-annotation-1.0.3_9bf5ced245caa32de3f972839b93fe3dd902e0d5.jar" />
     </item>
     <item
         is-multidex="false"
@@ -26,43 +26,25 @@
         optimize="true"
         revision="23.0.1"
         sha1="63994437f62bc861bc20c605d12962f7246116d1">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_2d79098cfbe3cfc9b691f1ff19d33e421ff052a6.jar" />
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_2d79098cfbe3cfc9b691f1ff19d33e421ff052a6.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.0.1/jars/classes.jar"
+        jar="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.0.1_d2834cf141efe98b66dfe8b7e6335ee9ecc2aea1.jar" />
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_650b5435d73b626df76b04cadc120e08b208abd6.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jar="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.2.0_89e85638223313d687d2e067315d65bb38faf6d3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.2.0_5e2596101d6535cbd809f17201959d5169deb4de.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.alibaba/arouter-api/1.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="b81ab26c3a061513ef7720f3d2af428d5f7532e4">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.alibaba-arouter-api-1.2.1_283fc18be33996d77cc863001243c98648114a08.jar" />
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.2.0_0d40558e5c26b1c3d0aaa1a6ed20c23d77c419b7.jar" />
     </item>
     <item
         is-multidex="false"
@@ -71,52 +53,52 @@
         optimize="true"
         revision="23.0.1"
         sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_8ee37e2ae34aabcd870b9f97603afd3c303bc582.jar" />
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_8ee37e2ae34aabcd870b9f97603afd3c303bc582.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_fda952c8ffafe0506528aa5e3c5316207023993f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.0.1_5268a5215181216e26fe1e804615406e49d5dab5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_f47de474454b31aa48d36be156a39c67d2cdbae9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.0.1/jars/classes.jar"
+        jar="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.0.1_0e970e32d47a5c1b24c4f8070ca58b8fbff193b5.jar" />
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.0.1_4d858365ced5ab0e3a0713513f4928ad5e753e25.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jar="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_c1556c87987b8f9e1276d79052a636d1b06ecc92.jar" />
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_83b947d7262668402d88696408c6d0a893567932.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.0.1_bc35d87f11bd66a8c81ad73e3db0218158ec9634.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.2.0_d38c2862c71427c2567340e998c566336bc0a0ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="28964a93b5eafbe660a5b51e5964d2e66aa45395">
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.43.3_105ed3daa95d139c009bb00381acb8ad64bc09ef.jar" />
     </item>
     <item
         is-multidex="false"
@@ -125,25 +107,34 @@
         optimize="true"
         revision="23.0.1"
         sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_685534c04b5976a42f2e8ac38f62fcf6b4639e8d.jar" />
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_685534c04b5976a42f2e8ac38f62fcf6b4639e8d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.0.1/jars/classes.jar"
+        jar="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.2.0_e9fd3872c535d171c3cb1f4e862175f314b00a7a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.0.1_ae3ca06b3d0f4f40875bdb85b07996d371bd25f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.0.1_d1a18de08eb059751d9d2335e670b4be33357396.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_e370bbeb88125e6b0417c1082478b90968a24aa7.jar" />
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.0.1_61530309f82610a29db06ce779a9440316a5e13a.jar" />
     </item>
     <item
         is-multidex="false"
@@ -152,16 +143,52 @@
         optimize="true"
         revision="23.0.1"
         sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0_7300f969b70136c1aabc1cb5d5ddec5a5f51662b.jar" />
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0_7300f969b70136c1aabc1cb5d5ddec5a5f51662b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.2/jars/classes.jar"
+        jar="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.2_56731ed8c457dab73326dc1fe4dc32f14dd36456.jar" />
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.2.0_83ad37728bb30034fd14d4a78d43ae5e177384ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_bc97cc83d96ea4950c3dc7ed66a43310ffbdb247.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.0.1_da6e6ba3453a70268fb0347342186616bed9c415.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.alibaba/arouter-api/1.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b81ab26c3a061513ef7720f3d2af428d5f7532e4">
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.alibaba-arouter-api-1.2.1_ec0316ae60b328c74379f97ff8d729b2fc5f7ea6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.2.0_0aa5648c915f4c1b2d93e528cd6dfcc975101d62.jar" />
     </item>
     <item
         is-multidex="false"
@@ -170,7 +197,16 @@
         optimize="true"
         revision="23.0.1"
         sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_317bb03021215a6b28ed3e6ca990e5b6eb29ee9a.jar" />
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_317bb03021215a6b28ed3e6ca990e5b6eb29ee9a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.2_d553dd3afeb0de00698a8dec7e89acccb6b03daa.jar" />
     </item>
     <item
         is-multidex="false"
@@ -179,52 +215,34 @@
         optimize="true"
         revision="23.0.1"
         sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_b83afd7bb0a76bd97e47ea66e4ec10d9f813eee4.jar" />
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_b83afd7bb0a76bd97e47ea66e4ec10d9f813eee4.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.3/jars/libs/infer-annotations-1.5.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5_cd561db944b6c35e70397393fb7424b9b7d6bbdf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.3/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="28964a93b5eafbe660a5b51e5964d2e66aa45395">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.43.3_13c9dfc104e4c6d784214680d70891bd13e57b61.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jar="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.2.0_a392f337e159d027510efff3d5d37aa8749cd50f.jar" />
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.2.0_2f4fda092049189f3c2b48d33e5747c337ffa0bf.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.0.1/jars/classes.jar"
+        jar="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.0.1_47f50f1d97d32ba5a821c07f800ca82332286ec7.jar" />
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_ac5392b1398fd55c0ca216fa5435bbcd6089c0fa.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jar="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.3/jars/libs/infer-annotations-1.5.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.2.0_aa5e25b28244fcd8464b482a461b31b1aeb1e94b.jar" />
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5_9833293601dec5521477507634527e8c8e132a96.jar" />
     </item>
     <item
         is-multidex="false"
@@ -233,34 +251,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_73867cee38d7b5b5e0aeec482aae4fc62953e7d4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.2.0_68f106a19d2685b61c8ab87560bb9e5b473f836a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.0.1_52dfc2cca05d653d93b613e0f4e3d15c09cf4a23.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_1b0754dbb7e3ecac4bb20993b7a898eb517d6bc5.jar" />
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_73867cee38d7b5b5e0aeec482aae4fc62953e7d4.jar" />
     </item>
     <item
         is-multidex="false"
@@ -269,7 +260,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_27296f6de320952f9dd62c8ecbf7791c7a45958b.jar" />
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_27296f6de320952f9dd62c8ecbf7791c7a45958b.jar" />
     </item>
     <item
         is-multidex="false"
@@ -278,7 +269,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_d2e9df7a426a6db1e86783da5e7dfae004a77758.jar" />
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_d2e9df7a426a6db1e86783da5e7dfae004a77758.jar" />
     </item>
     <item
         is-multidex="false"
@@ -287,16 +278,25 @@
         optimize="true"
         revision="23.0.1"
         sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1_88975344e7b11581ddf01396e73232e8095134b0.jar" />
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1_88975344e7b11581ddf01396e73232e8095134b0.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jar="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_2be8bfbd6032abc28a51eeb1b5fef389c13e1ff3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_1395b3e581c5cec36da51427849dec00991ca831.jar" />
+        <dex dex="/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_4ad13acde2192674849a9aa7cb87517097c26d67.jar" />
     </item>
 
 </items>

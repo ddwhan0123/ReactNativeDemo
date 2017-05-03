@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.3/res/xml/preferences.xml"
+    },
+    {
         "merged": "/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
         "source": "/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.3/res/xml/preferences.xml"
     }

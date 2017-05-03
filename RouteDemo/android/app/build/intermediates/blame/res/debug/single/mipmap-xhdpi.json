@@ -2,5 +2,9 @@
     {
         "merged": "/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
         "source": "/Users/jiajiewang/Documents/Code/gitLocal/React-NativeRouteDemo/RouteDemo/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/Users/jiajiewang/Documents/Code/gitLocal/react-nativeDemo/RouteDemo/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     }
 ]
