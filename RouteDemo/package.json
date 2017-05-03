@@ -10,6 +10,7 @@
     "react": "16.0.0-alpha.6",
     "react-native": "0.43.3",
     "react-redux": "^5.0.4",
+    "redux": "^3.6.0",
     "redux-thunk": "^2.2.0"
   },
   "devDependencies": {

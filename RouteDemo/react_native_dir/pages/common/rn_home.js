@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import doLogic from '../../reducers/reducer'
+import { createStore } from 'redux'
+import { Provider } from 'react-redux'
+import { connect } from 'react-redux'
 import {
     AppRegistry,
     StyleSheet,
@@ -10,10 +14,10 @@ import {
     BackAndroid,
 } from 'react-native';
 import Simple from './rn_simple';
+import { do_beginfun, do_done, do_doing } from '../../action/action';
 var { NativeModules } = require('react-native');
-
 var nav;
-
+var dispatch;
 //返回键监听行为
 BackAndroid.addEventListener('hardwareBackPress', function () {
     if (nav == null) {
@@ -26,11 +30,16 @@ BackAndroid.addEventListener('hardwareBackPress', function () {
     return true;
 });
 
+
+let store = createStore(doLogic)
+
 export default class Home extends Component {
+
     constructor(props) {
         super(props);
         nav = this.props.navigator;
         this._handlePress = this._handlePress.bind(this);
+        dispatch = this.props;
     }
 
     _handlePress() {
@@ -42,6 +51,10 @@ export default class Home extends Component {
                 id: '10011',
             }
         });
+    }
+
+    _testRedux() {
+        dispatch(do_beginfun('1234'))
     }
 
     componentWillMount() {
@@ -64,24 +77,36 @@ export default class Home extends Component {
     }
 
     render() {
+
         return (
-            <View style={styles.container}>
-                <Text style={styles.welcome}>
-                    我是RN首页
-        </Text>
-                <MyButton
-                    onPress={() => {
-                        NativeModules.IntentModule.StartActivityFromRN("com.routedemo.activity.SecondActivity", "我是RN首页过来的参数信息.456");
-                    }}
-                    text="即将跳转原生页面"
-                ></MyButton>
-                <MyButton
-                    onPress={this._handlePress}
-                    text="即将跳转RN页面"></MyButton>
-            </View>
+            <Provider store={store}>
+                <View style={styles.container}>
+                    <Text style={styles.welcome}>
+                        我是RN首页
+                    </Text>
+                    <MyButton
+                        onPress={() => {
+                            NativeModules.IntentModule.StartActivityFromRN("com.routedemo.activity.SecondActivity", "我是RN首页过来的参数信息.456");
+                        }}
+                        text="即将跳转原生页面"
+                    ></MyButton>
+                    <MyButton
+                        onPress={this._handlePress}
+                        text="即将跳转RN页面"></MyButton>
+                    <MyButton onPress={this._testRedux}
+                        text='测试Redux'></MyButton>
+                </View>
+            </Provider>
+
         );
     }
 }
+
+function selector(state) {  
+  return {  
+    text:state.textValue,  
+  }  
+} 
 
 export class MyButton extends Component {
     render() {
