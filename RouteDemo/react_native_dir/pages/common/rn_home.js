@@ -17,7 +17,6 @@ import Simple from './rn_simple';
 import { do_beginfun, do_done, do_doing } from '../../action/action';
 var { NativeModules } = require('react-native');
 var nav;
-var dispatch;
 //返回键监听行为
 BackAndroid.addEventListener('hardwareBackPress', function () {
     if (nav == null) {
@@ -39,7 +38,6 @@ export default class Home extends Component {
         super(props);
         nav = this.props.navigator;
         this._handlePress = this._handlePress.bind(this);
-        dispatch = this.props;
     }
 
     _handlePress() {
@@ -52,11 +50,6 @@ export default class Home extends Component {
             }
         });
     }
-
-    _testRedux() {
-        dispatch(do_beginfun('1234'))
-    }
-
     componentWillMount() {
         console.log('--->Home componentWillMount');
     }
@@ -77,7 +70,7 @@ export default class Home extends Component {
     }
 
     render() {
-
+        const { dispatch } = this.props;
         return (
             <Provider store={store}>
                 <View style={styles.container}>
@@ -93,7 +86,7 @@ export default class Home extends Component {
                     <MyButton
                         onPress={this._handlePress}
                         text="即将跳转RN页面"></MyButton>
-                    <MyButton onPress={this._testRedux}
+                    <MyButton onPress={() => { dispatch(do_beginfun('1234')) }}
                         text='测试Redux'></MyButton>
                 </View>
             </Provider>
@@ -102,11 +95,13 @@ export default class Home extends Component {
     }
 }
 
-function selector(state) {  
-  return {  
-    text:state.textValue,  
-  }  
-} 
+function selector(state) {
+    return {
+        text: state.textValue,
+    }
+}
+
+connect(selector)(Home);
 
 export class MyButton extends Component {
     render() {
